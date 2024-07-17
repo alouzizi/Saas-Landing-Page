@@ -20,10 +20,10 @@ export default function Features() {
 					<Image src={Feature1} alt="feature 1 image" className='pt-[24px] sm:hidden' />
 					<p className='py-[24px] text-[#36485c] lg:text-[18px]'>
 						Stay on top of things and revamp your work process with our game-changing
-						feature. Get a bird's eye view with our customizable dashbord.
+						feature. Get a birds eye view with our customizable dashbord.
 					</p>
 					<ul className='flex flex-col gap-y-3 lg:text-[18px]'>
-						<li className='flex items-center gap-x-2 text-[#36485C]'>
+						<li className="flex items-center gap-x-2 text-[#36485C]">
 							<span>
 								<Image src={Check} alt="Checkmark" />
 							</span>
@@ -99,11 +99,11 @@ export default function Features() {
 				<div className='sm:w-1/2 lg:py-[56px] lg:pr-[56px]'>
 					<h3 className="font-medium text-[#EB2891] lg:text-[18px]">Growth Monitoring</h3>
 					<h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-						Monitor your site’s new subscribers
+						Monitor your sites new subscribers
 					</h1>
 					<Image src={Feature3} alt="feature 3 image" className='pt-[24px] sm:hidden' />
 					<p className='py-[24px] text-[#36485c] lg:text-[18px]'>
-						Keep track of your site's growth and new subscriber metrics with our intuitive tools.
+						Keep track of your sites growth and new subscriber metrics with our intuitive tools.
 						Get insights to help you understand and enhance your audience engagement.
 					</p>
 					<div className='flex w-full gap-x-[24px]'>
