@@ -10,7 +10,7 @@ export default function Pricing() {
 			<div className="flex flex-col gap-y-6 gap-x-[24px] lg:flex-row ">
 				<div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
 					<div>
-						<h3 className="text-[#4328EB] font-medium text-[18px] lg:text-xl" >Free Trial</h3>
+						<h2 className="text-[#4328EB] font-medium text-[18px] lg:text-xl" >Free Trial</h2>
 						<p className="text-[#36485C] pt-3 lg:pt-4 lg:text-[18px]" >Perfect for testing the waters</p>
 						<h2 className="text-[#172026] font-medium text-2xl pt-4 lg:pt-8 lg:text-[32px]">0$
 							<span className="text-[#5F7896]">/mo</span>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BlurArrow from "../../public/assets/blue-button.svg";
-import Gradient from "../../public/assets/Gradient.svg";
-import HeroImage from "../../public/assets/Image.svg";
+import Gradient from "../../public/assets/Gradient.webp";
+import HeroImage from "../../public/assets/Image-2.webp";
 import Google from "../../public/assets/Google.svg";
 import Slack from "../../public/assets/Slack.svg";
 import Trustpilot from "../../public/assets/Trustpilot.svg";
@@ -43,7 +43,7 @@ export function Hero() {
 
 				<div className="absolute bottom-5 flex w-full flex-col items-center">
 					<Image
-						className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-[640px] xl:h-auto xl:w-[70%]"
+						className="w-auto -ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-[640px] xl:h-auto xl:w-[70%]"
 						src={HeroImage}
 						alt="HeroImage"
 					/>
@@ -52,13 +52,24 @@ export function Hero() {
 						<p className="text-[#FFFFFF] text-center lg:text-[18px]">
 							Trusted by these companies
 						</p>
-						<div className="grid grid-cols-3 items-center justify-center justify-items-center px-[20px] align-middle  lg:grid-cols-5">
-							<Image src={Google} alt="Google" />
-							<Image src={Slack} alt="Slack" />
-							<Image src={Trustpilot} alt="Trustpilot" />
-							<Image src={Cnn} alt="Cnn" />
-							<Image src={Cluth} alt="Cluth" />
+						<div className="flex flex-wrap justify-center gap-4 px-4">
+							<div className="flex items-center justify-center">
+								<Image src={Google} alt="Google" />
+							</div>
+							<div className="flex items-center justify-center">
+								<Image src={Slack} alt="Slack" />
+							</div>
+							<div className="flex items-center justify-center">
+								<Image src={Trustpilot} alt="Trustpilot" />
+							</div>
+							<div className="flex items-center justify-center">
+								<Image src={Cnn} alt="Cnn" />
+							</div>
+							{/* <div className="flex items-center justify-center">
+								<Image src={Cluth} alt="Cluth" />
+							</div> */}
 						</div>
+
 					</div>
 				</div>
 			</div>
